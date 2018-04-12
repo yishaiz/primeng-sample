@@ -9,12 +9,16 @@ import { MenuModule }                       from "primeng/menu";
 import { FormsModule, ReactiveFormsModule } from "@angular/forms";
 import { HttpClientModule }                 from "@angular/common/http";
 import { BrowserAnimationsModule }          from "@angular/platform-browser/animations";
+// import { PanelSampleComponent } from './panel-sample/panel-sample.component';
+
 
 
 @NgModule({
     declarations : [
         AppComponent,
-        SettingsComponent
+        SettingsComponent,
+        // PanelSampleComponent,
+
     ],
     imports : [
         BrowserModule,

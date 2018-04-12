@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
    <div>
        <app-settings></app-settings>
        
+       <!--<app-panel-sample></app-panel-sample>-->
    </div>
     
   `,

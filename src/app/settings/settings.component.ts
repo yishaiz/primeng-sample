@@ -18,6 +18,13 @@ import { Component, OnInit } from '@angular/core';
              Footer content here
          </p-footer>
      </p-panel>
+     
+     <hr>
+
+      <p-panel header="Settings">
+          
+      </p-panel>
+      
 
   `,
   styles: []
