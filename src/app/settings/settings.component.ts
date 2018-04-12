@@ -5,9 +5,19 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-settings',
   template: ` 
-      <p-panel header="Title">
+     <!-- <p-panel header="Title">
           Content
-      </p-panel>
+      </p-panel>-->
+
+     <p-panel >
+         <p-header>
+             Header content here
+         </p-header>
+         Body Content
+         <p-footer>
+             Footer content here
+         </p-footer>
+     </p-panel>
 
   `,
   styles: []
