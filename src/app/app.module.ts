@@ -3,7 +3,7 @@ import { NgModule }      from '@angular/core';
 import { PanelModule }   from 'primeng/panel';
 
 
-import { AppComponent }                     from './app.component';
+import { AppComponent }                     from './app/app.component';
 import { SettingsComponent }                from './settings/settings.component';
 import { MenuModule }                       from "primeng/menu";
 import { FormsModule, ReactiveFormsModule } from "@angular/forms";

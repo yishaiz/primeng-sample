@@ -9,7 +9,7 @@ import { Component, OnInit } from '@angular/core';
           Content
       </p-panel>-->
 
-     <p-panel >
+<!--     <p-panel >
          <p-header>
              Header content here
          </p-header>
@@ -19,7 +19,7 @@ import { Component, OnInit } from '@angular/core';
          </p-footer>
      </p-panel>
      
-     <hr>
+     <hr>-->
 
       <p-panel header="Settings">
           
