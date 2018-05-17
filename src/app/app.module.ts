@@ -15,6 +15,7 @@ import { TimesheetComponent }      from './timesheet/timesheet.component';
 import { ProjectsComponent }       from './projects/projects.component';
 import { ProfileComponent }        from './profile/profile.component';
 import { RouterModule, Routes }    from "@angular/router";
+import { TableComponent } from './table/table.component';
 // import { PanelSampleComponent } from './panel-sample/panel-sample.component';
 
 
@@ -26,6 +27,7 @@ const appRoutes : Routes = [
     { path : "projects", component : ProjectsComponent },
     { path : "profile", component : ProfileComponent },
     { path : "settings", component : SettingsComponent },
+    { path : "table", component : TableComponent },
 ];
 
 
@@ -38,6 +40,7 @@ const appRoutes : Routes = [
         TimesheetComponent,
         ProjectsComponent,
         ProfileComponent,
+        TableComponent,
         // PanelSampleComponent,
 
     ],

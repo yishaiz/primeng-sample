@@ -71,6 +71,12 @@ export class AppComponent implements OnInit, AfterViewInit {
                 routerLink : [ '/settings' ],
                 command : (event) => handleSelected(event)
             },
+          {
+                label : 'Table (Grid)',
+                icon : 'fa-table',
+                routerLink : [ '/table' ],
+                command : (event) => handleSelected(event)
+            },
         ]
 
         this.miniMenuItems = [];

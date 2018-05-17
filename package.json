@@ -27,6 +27,7 @@
     "primeng": "^5.2.6",
     "roboto-fontface": "^0.9.0",
     "rxjs": "^6.0.0",
+    "rxjs-compat": "^6.1.0",
     "zone.js": "^0.8.26"
   },
   "devDependencies": {
