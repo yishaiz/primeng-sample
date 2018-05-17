@@ -9,13 +9,15 @@ import { MenuModule }                       from "primeng/menu";
 import { FormsModule, ReactiveFormsModule } from "@angular/forms";
 import { HttpClientModule }                 from "@angular/common/http";
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
-import { DashboardComponent }      from './dashboard/dashboard.component';
-import { AlltimesComponent }       from './alltimes/alltimes.component';
-import { TimesheetComponent }      from './timesheet/timesheet.component';
-import { ProjectsComponent }       from './projects/projects.component';
-import { ProfileComponent }        from './profile/profile.component';
-import { RouterModule, Routes }    from "@angular/router";
-import { TableComponent } from './table/table.component';
+import { DashboardComponent }   from './dashboard/dashboard.component';
+import { AlltimesComponent }    from './alltimes/alltimes.component';
+import { TimesheetComponent }   from './timesheet/timesheet.component';
+import { ProjectsComponent }    from './projects/projects.component';
+import { ProfileComponent }     from './profile/profile.component';
+import { RouterModule, Routes } from "@angular/router";
+import { TableComponent }       from './table/table.component';
+import { CarService }           from "./car.service";
+import { TableModule }          from "primeng/table";
 // import { PanelSampleComponent } from './panel-sample/panel-sample.component';
 
 
@@ -52,9 +54,12 @@ const appRoutes : Routes = [
         FormsModule,
         ReactiveFormsModule,
         HttpClientModule,
-        RouterModule.forRoot(appRoutes)
+        RouterModule.forRoot(appRoutes),
+        TableModule
     ],
-    providers : [],
+    providers : [
+      CarService
+    ],
     bootstrap : [ AppComponent ]
 })
 export class AppModule {
